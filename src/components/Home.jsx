@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import {HiArrowNarrowRight} from "react-icons/hi"
 
 const Home = () => {
   return (
-    <div className='text-gray-900'>Home</div>
+    <div>Home</div>
   )
 }
 

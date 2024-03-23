@@ -40,7 +40,13 @@ const Navbar = () => {
         </ul>
 
         {/* Social icons */}
-        <div className='hidden'> </div>
+        <div className='flex flex-col fixed top-[35%] left-0'> 
+        <ul>
+          <li>
+            <a href='/'>LinkedIn</a>
+          </li>
+        </ul>
+        </div>
     </div>
     
    
