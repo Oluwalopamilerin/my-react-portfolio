@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import WorkImg from  "../assets/projects/workImg.jpeg"
 
 const Work = () => {
   return (
