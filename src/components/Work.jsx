@@ -1,5 +1,6 @@
 import React from 'react';
-import WorkImg from  "../assets/projects/workImg.jpeg"
+import WorkImg from  "../assets/projects/workImg.jpeg";
+import RealEstate from "../assets/projects/realestate.jpg"
 
 const Work = () => {
   return (
@@ -11,20 +12,23 @@ const Work = () => {
           <p className='py-6'>Check out some of my recent works</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div style = {{backgroundImage:`url(${WorkImg})`}}
+         className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects*/}
-            <div>
-              <span></span>
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                ReactJS Application
+              </span>
 
-              <div>
+              <div className='pt-8 text-center'>
                 <a href="/">
-                  <button></button>
+                  <button>Demo</button>
                 </a>
 
                 <a href="/">
-                  <button></button>
+                  <button>Code</button>
                 </a>
               </div>
             </div>
