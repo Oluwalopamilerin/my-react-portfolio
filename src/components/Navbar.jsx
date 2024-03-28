@@ -19,37 +19,45 @@ const Navbar = () => {
         </div>
         {/* Menu */}
        
-          <ul className='hidden md:flex'>
-            <li> 
+          <ul className='hidden md:flex '>
+            <li className='hover:scale-125 duration-300'> 
               <Link 
+              className="hover:scale-125 hover:border-b-2 hover:border-pink-600 duration-300"
                 to="home" 
                 smooth={true}  
                 duration={500} >
                 Home
               </Link>
             </li>
-            <li><Link 
+            <li className='hover:scale-125 duration-300'><Link 
+                className="hover:border-b-2 hover:border-pink-600 duration-300"
                 to="about" 
                 smooth={true}  
                 duration={500} >
                 About
               </Link></li>
 
-            <li><Link 
+            <li className='hover:scale-125 duration-300'>
+              <Link 
+                className="hover:border-b-2 hover:border-pink-600 duration-300"
                 to="skills" 
                 smooth={true}  
                 duration={500} >
                 Skills
               </Link></li>
 
-            <li><Link 
+            <li className='hover:scale-125 duration-300'>
+              <Link 
+                className="hover:border-b-2 hover:border-pink-600 duration-300"
                 to="work" 
                 smooth={true}  
                 duration={500} >
                 Work
               </Link></li>
 
-            <li><Link 
+            <li className='hover:scale-125 duration-300'>
+              <Link 
+                className="hover:border-b-2 hover:border-pink-600 duration-300"
                 to="contact" 
                 smooth={true}  
                 duration={500} >
@@ -65,7 +73,7 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         <ul className={!mobileMenu?"hidden": ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center' }>
-            <li className='py-6 text-4xl'>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>
               <Link 
               onClick={handleClick}
                 to="home" 
@@ -73,7 +81,7 @@ const Navbar = () => {
                 duration={500} >
                 Home
               </Link></li>
-            <li className='py-6 text-4xl'>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>
               <Link 
                onClick={handleClick}
                 to="about" 
@@ -81,7 +89,7 @@ const Navbar = () => {
                 duration={500} >
                 About
               </Link></li>
-            <li className='py-6 text-4xl'>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>
               <Link 
                onClick={handleClick}
                 to="skills" 
@@ -89,7 +97,7 @@ const Navbar = () => {
                 duration={500} >
                 Skills
               </Link></li>
-            <li className='py-6 text-4xl'>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>
               <Link 
                onClick={handleClick}
                 to="work" 
@@ -97,7 +105,7 @@ const Navbar = () => {
                 duration={500} >
                 Work
               </Link></li>
-            <li className='py-6 text-4xl'>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>
               <Link 
                onClick={handleClick}
                 to="contact" 
