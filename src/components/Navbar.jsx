@@ -11,11 +11,13 @@ const Navbar = () => {
   const handleClick = () => {
     setMobileMenu(!mobileMenu)
   }
+
   return (
 
       <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <div>
-          <img src={logo} alt="logo" style={{width:"50px"}}/>
+          {/* <img src={logo} alt="logo" style={{width:"50px"}}/> */}
+          <p style={{fontFamily: "fantasy"}} className='text-3xl font-bold text-pink-600'>Oluwapamilerin</p>
         </div>
         {/* Menu */}
        
