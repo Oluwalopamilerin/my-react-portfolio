@@ -122,7 +122,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-            href='linkedin.com/in/deborah--oyewole' target='_blank'>LinkedIn <FaLinkedin size={30}/></a>
+            href='https://www.linkedin.com/in/deborah--oyewole/' target='_blank'>LinkedIn <FaLinkedin size={30}/></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
@@ -130,11 +130,11 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-            href=''>Email <HiOutlineMail size={30}/></a>
+            href='mailto:pamilerinoyewole06@gmail.com'>Email <HiOutlineMail size={30}/></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-            href='/'>LinkedIn <BsFillPersonLinesFill size={30}/></a>
+            href='tel: +2348130107130'>LinkedIn <BsFillPersonLinesFill size={30}/></a>
           </li>
         </ul>
         </div>
