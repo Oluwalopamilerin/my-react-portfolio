@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkImg from  "../assets/projects/workImg.jpeg";
 import RealEstate from "../assets/projects/realestate.jpg"
-
+import Project1 from "../assets/projects/2561CFE8-D067-4720-BEB0-961C1D84F534_1_201_a.jpeg"
 const Work = () => {
   return (
     <div name="work" className='bg-[#0a192f] w-full h-screen text-gray-300'>
@@ -17,7 +17,7 @@ const Work = () => {
          className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Grid Item */}
-          <div  style = {{backgroundImage:`url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div  style = {{backgroundImage:`url(${Project1})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects*/}
             <div className='opacity-0 group-hover:opacity-100'>
