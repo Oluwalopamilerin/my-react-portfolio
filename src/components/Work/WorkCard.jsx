@@ -2,7 +2,8 @@ import React from 'react'
 
 const WorkCard = (props) => {
   return (
-    <div style={{ backgroundImage: `url(${props.backgroundImage})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+    <div>
+      <div style={{ backgroundImage: `url(${props.backgroundImage})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
       {/* Hover Effects*/}
       <div className='opacity-0 group-hover:opacity-100'>
@@ -15,12 +16,14 @@ const WorkCard = (props) => {
             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 fonr-bold text-lg'>Demo</button>
           </a>
 
-          <a href={props.code}>
+          <a href={props.code} target='_blank'>
             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 fonr-bold text-lg'>Code</button>
           </a>
         </div>
       </div>
+      </div>
     </div>
+    
   )
 }
 
