@@ -5,7 +5,7 @@ import WorkData from "./WorkData";
 
 const Work = () => {
   return (
-    <div name="work" className='bg-[#0a192f] w-full h-screen text-gray-300'>
+    <div name="work" className='bg-[#0a192f] w-full min-h-screen  text-gray-300'>
 
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full'>
       <div className='pb-8'>
