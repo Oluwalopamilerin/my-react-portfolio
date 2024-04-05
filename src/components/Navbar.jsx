@@ -135,6 +135,7 @@ const Navbar = () => {
             Logo= {val.logo}
             href= {val.href}
             name= {val.name}
+            color={val.color}
             />
           )
         })}
