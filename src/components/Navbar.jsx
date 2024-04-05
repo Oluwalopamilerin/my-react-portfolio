@@ -1,8 +1,12 @@
 import React, {useState} from 'react';
+
+import SocialsData from './SocialsData';
+import Socials from './Socials';
 import { Link } from 'react-scroll';
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from "react-icons/bs";
+import logo from "../assets/logo1.png";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -124,26 +128,18 @@ const Navbar = () => {
 
         {/* Social icons */}
         <div className='hidden lg:flex flex-col fixed top-[35%] left-0 ' > 
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a className='flex justify-between items-center w-full text-gray-300' 
-            href='https://www.linkedin.com/in/deborah--oyewole/' target='_blank'>LinkedIn <FaLinkedin size={30}/></a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' 
-            href='https://github.com/Oluwalopamilerin' target='_blank'>Github <FaGithub size={30}/></a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300' 
-            href='mailto:pamilerinoyewole06@gmail.com'>Email <HiOutlineMail size={30}/></a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a className='flex justify-between items-center w-full text-gray-300' 
-            href='tel: +2348130107130'>LinkedIn <BsFillPersonLinesFill size={30}/></a>
-          </li>
-        </ul>
+        {SocialsData?.map((val, index) => {
+          return(
+            <Socials
+            key={index}
+            Logo= {val.logo}
+            href= {val.href}
+            name= {val.name}
+            />
+          )
+        })}
         </div>
-      </div>
+    </div>
     
    
   )
