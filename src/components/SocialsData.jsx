@@ -6,22 +6,26 @@ const data = [
   {
     logo: FaLinkedin,
     href: "https://www.linkedin.com/in/deborah--oyewole/",
-    name: "LinkedIn"
+    name: "LinkedIn",
+    color: "bg-blue-600"
   },
   {
     logo: FaGithub,
     href: "https://github.com/Oluwalopamilerin",
-    name: "GitHub"
+    name: "GitHub",
+    color: "bg-[#333333]"
   },
   {
     logo: HiOutlineMail,
     href: "mailto:pamilerinoyewole06@gmail.com",
-    name: "Email"
+    name: "Email",
+    color: "bg-[#6fc2b0]"
   },
   {
     logo: BsFillPersonLinesFill,
     href: "tel: +2348130107130",
-    name: "Hotline"
+    name: "Hotline",
+    color: "bg-[#565f69]"
   }
 ]
 
