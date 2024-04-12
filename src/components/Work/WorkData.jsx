@@ -33,7 +33,7 @@ const projectCardData = [
   },
   {
     backgroundImage: Project6,
-    demo: "https://my-movie-app-with-react.netlify.app/",
+    demo: "https://oluwalopamilerin.github.io/Digital-clock-website/",
     code: "https://github.com/Oluwalopamilerin/Digital-clock-website.git",
   }
 ]
